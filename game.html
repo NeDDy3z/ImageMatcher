@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/game.css">
+    <title>MemeMatcher - Game</title>
+</head>
+<body>
+    <header>
+        <h1>MemeMatcher</h1>
+        <button type="button" id="restart">Restart</button>
+    </header>
+    <main>
+        <div class="images">
+            <img src="" alt="img-1" id="img1">
+            <img src="" alt="img-2" id="img2">
+        </div>
+        <div class="interaction">
+            <div><p>Score: <span id="score">0</span></p></div>
+            <button type="button" id="match">It's the same meme from r/okkamaraderetarde</button>
+            <div><p>Time: <span id="time"></span></p></div>
+        </div>
+    </main>
+    <div class="end-container" style="visibility: hidden;">
+        <div class="end">
+            <h1>End</h1>
+            <h3>Score: <span id="scoreDialog">0</span></h3>
+            <a href="index.html"><button type="button">To menu</button></a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
